@@ -1,2 +1,2 @@
 # ToDo
-This stores your todo list and mark s completed when finished  
+This stores your todo list and marks completed when finished  
