@@ -1,0 +1,55 @@
+body{
+	max-width:400px;
+	margin:auto;
+}
+#circle{
+	display:flex;
+}
+#circle div{
+	margin:0px 10px 10px 10px;
+height:20px;
+width:20px;
+background: #000000;
+border-radius:50px; 	
+}
+.todoFeild{
+	background: #eeeeee;width: 100%;
+	font-size:20px;padding:10px;
+	border: 1px solid #8a8787;
+
+}
+
+#saveBtn{
+	margin-top: 10px;
+	padding:5px 20px 5px 20px;
+	background:#33aa1c;
+	color: #fff;
+	font-size: 18px;
+	border-radius:10px;
+	cursor:pointer;
+}
+#saveBtn:hover{
+	background: #ffffff;
+	color: #33aaac;
+	border: 1px solid;
+
+
+}
+#todolist{
+	display:grid;
+	grid-template-columns:50% 50%;
+}
+#todolist div{
+	padding: 20px;
+	text-align: center;
+	background: aliceblue;
+	margin: 20px;
+}
+#todolist button{
+	float:right;
+	margin-top:20px;
+	background: #fa412c;
+	color:#fff;
+	border:none;
+	border-radius: 10px;
+}
